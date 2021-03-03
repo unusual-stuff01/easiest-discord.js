@@ -1,0 +1,23 @@
+{
+  "name": "easiest-discord.js",
+  "version": "0.5.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy discord.js",
+    "easy discord bots",
+    "discord bots",
+    "discord",
+    "djs wrapper",
+    "discord.js wrapper",
+    "discord.js",
+    "easiest discord.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
