@@ -16,6 +16,10 @@
     "discord.js",
     "easiest discord.js"
   ],
+  "repository": {
+"type": "git",
+"url": "https://github.com/unusual-stuff01/easiest-discord.js"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
