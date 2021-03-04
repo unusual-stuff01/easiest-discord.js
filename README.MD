@@ -126,7 +126,7 @@ __Feel free to join our discord support server__ Click [here](https://discord.gg
 - `+` Added **userExists(userid, client, event)** - This function returns either true or false depending if the user with id provided exists/has a valid account created in discord
 - `+` Added **isValidMessage(messageid, channelid, guildid, client, event)** - This function returns either true or false depending if the message with given id in channel with given id exists
 
-(0.5.7)
+(0.5.7 - 0.5.8)
 - `+` Added **usersWithRole(roleid, guildid, separator, option, client, event)** - Returns a list of users with the role with provided role ID. The options are 'names', 'ids', 'mentions'. If an invalid option is provided it will be set to mentions
 - `+` Added **rolePosition(roleid, guildid, client, event)** - Returns the position of the role with provided ID in the guild with provided guild ID
 - `+` Added **channelPosition(channelid, guildid, client, event)** - Returns the position of the channel with given ID in the guild with given ID
@@ -136,3 +136,4 @@ __Feel free to join our discord support server__ Click [here](https://discord.gg
 - `+` Added **findRole(query, guildid, client, event)** - Just the same as findChannel but this is with a role
 - `+` Added **channelNSFW(channelid, guildid, client, event)** - Returns either true or false depending if the channel with provided ID is marked as NSFW or no
 - `+` Added **createChannel(channelname, guildid, topic, nsfw, permissions, permissions_id, position, cooldown, reason, client, event)** - Cooldown is put as seconds, If you want to not use one of the options just leave it blank: '', '' etc.. Permissions must be put with this format: ['PERMISSION1','PERMISSION2','ETC...'], permissions_id is the ID which this will affect to. it can be a role id/member id etc.
+- `+` Added github repo
